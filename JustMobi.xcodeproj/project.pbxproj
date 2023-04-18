@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F56D55F29E8128F0091D675 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F56D55E29E8128F0091D675 /* AppDelegate.swift */; };
+		8F56D56329E8128F0091D675 /* AlmostInstagramVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F56D56229E8128F0091D675 /* AlmostInstagramVC.swift */; };
+		8F56D56829E812900091D675 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F56D56729E812900091D675 /* Assets.xcassets */; };
+		8F56D56B29E812900091D675 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F56D56929E812900091D675 /* LaunchScreen.storyboard */; };
+		8F6E267429EAA0CF00CDE814 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6E267329EAA0CF00CDE814 /* UIView.swift */; };
+		8F6E267829EAA7E600CDE814 /* AlmostInstagramModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6E267729EAA7E600CDE814 /* AlmostInstagramModel.swift */; };
+		8F6E267A29EAB3D100CDE814 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6E267929EAB3D100CDE814 /* Array.swift */; };
+		8F6E267D29EAE1A600CDE814 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 8F6E267C29EAE1A600CDE814 /* Kingfisher */; };
+		8F6E267F29EAE52700CDE814 /* AlmostInstagramLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6E267E29EAE52700CDE814 /* AlmostInstagramLayout.swift */; };
+		8F6E268329EAF5E900CDE814 /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6E268229EAF5E900CDE814 /* BannerView.swift */; };
+		8F6E268629EB0F7100CDE814 /* HashtagsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6E268529EB0F7100CDE814 /* HashtagsCollectionViewController.swift */; };
+		8F6E268829EB1D5900CDE814 /* HashtagCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6E268729EB1D5900CDE814 /* HashtagCell.swift */; };
+		8F6E268929EDA05000CDE814 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6E268029EAEA6A00CDE814 /* RootViewController.swift */; };
+		8F6E268B29EDD79300CDE814 /* HashtagsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6E268A29EDD79300CDE814 /* HashtagsHeaderView.swift */; };
+		8F6E268D29EDD8C400CDE814 /* PresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6E268C29EDD8C400CDE814 /* PresentViewController.swift */; };
+		8F6E268F29EEB25E00CDE814 /* WKWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6E268E29EEB25E00CDE814 /* WKWebViewController.swift */; };
+		8FD45FC829E8596700F9775F /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD45FC729E8596700F9775F /* CellView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8F56D55B29E8128F0091D675 /* JustMobi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustMobi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F56D55E29E8128F0091D675 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8F56D56229E8128F0091D675 /* AlmostInstagramVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlmostInstagramVC.swift; sourceTree = "<group>"; };
+		8F56D56729E812900091D675 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F56D56A29E812900091D675 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F56D56C29E812900091D675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F6E267329EAA0CF00CDE814 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		8F6E267729EAA7E600CDE814 /* AlmostInstagramModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlmostInstagramModel.swift; sourceTree = "<group>"; };
+		8F6E267929EAB3D100CDE814 /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		8F6E267E29EAE52700CDE814 /* AlmostInstagramLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlmostInstagramLayout.swift; sourceTree = "<group>"; };
+		8F6E268029EAEA6A00CDE814 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		8F6E268229EAF5E900CDE814 /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
+		8F6E268529EB0F7100CDE814 /* HashtagsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashtagsCollectionViewController.swift; sourceTree = "<group>"; };
+		8F6E268729EB1D5900CDE814 /* HashtagCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashtagCell.swift; sourceTree = "<group>"; };
+		8F6E268A29EDD79300CDE814 /* HashtagsHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashtagsHeaderView.swift; sourceTree = "<group>"; };
+		8F6E268C29EDD8C400CDE814 /* PresentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentViewController.swift; sourceTree = "<group>"; };
+		8F6E268E29EEB25E00CDE814 /* WKWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebViewController.swift; sourceTree = "<group>"; };
+		8FD45FC729E8596700F9775F /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F56D55829E8128F0091D675 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F6E267D29EAE1A600CDE814 /* Kingfisher in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F56D55229E8128F0091D675 = {
+			isa = PBXGroup;
+			children = (
+				8F56D55D29E8128F0091D675 /* JustMobi */,
+				8F56D55C29E8128F0091D675 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F56D55C29E8128F0091D675 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F56D55B29E8128F0091D675 /* JustMobi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F56D55D29E8128F0091D675 /* JustMobi */ = {
+			isa = PBXGroup;
+			children = (
+				8F6E267629EAA7A500CDE814 /* Screens */,
+				8F6E267229EAA02000CDE814 /* Extensions */,
+				8F56D55E29E8128F0091D675 /* AppDelegate.swift */,
+				8F56D56729E812900091D675 /* Assets.xcassets */,
+				8F56D56929E812900091D675 /* LaunchScreen.storyboard */,
+				8F56D56C29E812900091D675 /* Info.plist */,
+			);
+			path = JustMobi;
+			sourceTree = "<group>";
+		};
+		8F6E267229EAA02000CDE814 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8F6E267329EAA0CF00CDE814 /* UIView.swift */,
+				8F6E267929EAB3D100CDE814 /* Array.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8F6E267529EAA58E00CDE814 /* AlmostInstagram */ = {
+			isa = PBXGroup;
+			children = (
+				8FD45FC729E8596700F9775F /* CellView.swift */,
+				8F56D56229E8128F0091D675 /* AlmostInstagramVC.swift */,
+				8F6E267729EAA7E600CDE814 /* AlmostInstagramModel.swift */,
+				8F6E267E29EAE52700CDE814 /* AlmostInstagramLayout.swift */,
+			);
+			path = AlmostInstagram;
+			sourceTree = "<group>";
+		};
+		8F6E267629EAA7A500CDE814 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				8F6E268429EB0F2D00CDE814 /* Hashtags */,
+				8F6E267529EAA58E00CDE814 /* AlmostInstagram */,
+				8F6E268029EAEA6A00CDE814 /* RootViewController.swift */,
+				8F6E268229EAF5E900CDE814 /* BannerView.swift */,
+				8F6E268C29EDD8C400CDE814 /* PresentViewController.swift */,
+				8F6E268E29EEB25E00CDE814 /* WKWebViewController.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		8F6E268429EB0F2D00CDE814 /* Hashtags */ = {
+			isa = PBXGroup;
+			children = (
+				8F6E268529EB0F7100CDE814 /* HashtagsCollectionViewController.swift */,
+				8F6E268729EB1D5900CDE814 /* HashtagCell.swift */,
+				8F6E268A29EDD79300CDE814 /* HashtagsHeaderView.swift */,
+			);
+			path = Hashtags;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F56D55A29E8128F0091D675 /* JustMobi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F56D56F29E812900091D675 /* Build configuration list for PBXNativeTarget "JustMobi" */;
+			buildPhases = (
+				8F56D55729E8128F0091D675 /* Sources */,
+				8F56D55829E8128F0091D675 /* Frameworks */,
+				8F56D55929E8128F0091D675 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JustMobi;
+			packageProductDependencies = (
+				8F6E267C29EAE1A600CDE814 /* Kingfisher */,
+			);
+			productName = JustMobi;
+			productReference = 8F56D55B29E8128F0091D675 /* JustMobi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F56D55329E8128F0091D675 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					8F56D55A29E8128F0091D675 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 8F56D55629E8128F0091D675 /* Build configuration list for PBXProject "JustMobi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F56D55229E8128F0091D675;
+			packageReferences = (
+				8F6E267B29EAE1A600CDE814 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = 8F56D55C29E8128F0091D675 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F56D55A29E8128F0091D675 /* JustMobi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F56D55929E8128F0091D675 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F56D56B29E812900091D675 /* LaunchScreen.storyboard in Resources */,
+				8F56D56829E812900091D675 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F56D55729E8128F0091D675 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FD45FC829E8596700F9775F /* CellView.swift in Sources */,
+				8F56D56329E8128F0091D675 /* AlmostInstagramVC.swift in Sources */,
+				8F6E268829EB1D5900CDE814 /* HashtagCell.swift in Sources */,
+				8F6E268929EDA05000CDE814 /* RootViewController.swift in Sources */,
+				8F6E267F29EAE52700CDE814 /* AlmostInstagramLayout.swift in Sources */,
+				8F6E268629EB0F7100CDE814 /* HashtagsCollectionViewController.swift in Sources */,
+				8F6E267A29EAB3D100CDE814 /* Array.swift in Sources */,
+				8F6E267429EAA0CF00CDE814 /* UIView.swift in Sources */,
+				8F6E268D29EDD8C400CDE814 /* PresentViewController.swift in Sources */,
+				8F6E268F29EEB25E00CDE814 /* WKWebViewController.swift in Sources */,
+				8F6E268329EAF5E900CDE814 /* BannerView.swift in Sources */,
+				8F56D55F29E8128F0091D675 /* AppDelegate.swift in Sources */,
+				8F6E268B29EDD79300CDE814 /* HashtagsHeaderView.swift in Sources */,
+				8F6E267829EAA7E600CDE814 /* AlmostInstagramModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8F56D56929E812900091D675 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F56D56A29E812900091D675 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F56D56D29E812900091D675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8F56D56E29E812900091D675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F56D57029E812900091D675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5CH4ZWKZ99;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JustMobi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = anton.JustMobi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F56D57129E812900091D675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5CH4ZWKZ99;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JustMobi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = anton.JustMobi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F56D55629E8128F0091D675 /* Build configuration list for PBXProject "JustMobi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F56D56D29E812900091D675 /* Debug */,
+				8F56D56E29E812900091D675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F56D56F29E812900091D675 /* Build configuration list for PBXNativeTarget "JustMobi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F56D57029E812900091D675 /* Debug */,
+				8F56D57129E812900091D675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8F6E267B29EAE1A600CDE814 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 7.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8F6E267C29EAE1A600CDE814 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8F6E267B29EAE1A600CDE814 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8F56D55329E8128F0091D675 /* Project object */;
+}
